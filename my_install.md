@@ -2,7 +2,7 @@
 
 There are two steps here to isntall: conda environments and source installations
 
-CONDA:
+### FROM CONDA/MAMBA
 ```
 # Environment 1 - including all annotation tools
 conda create -y --prefix /gpfs/home/ibishop/data/ibishop/condas/transposon_annotation_tools_env
@@ -36,7 +36,7 @@ conda activate
 
 
 
-## SOURCE:
+### FROM SOURCE
 
 If you wanted update the repeatmasker library to use the full Dfam library, do the following:
 ```
